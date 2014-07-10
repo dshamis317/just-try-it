@@ -38,3 +38,12 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development, :test do
+  gem 'rspec-rails', '~> 2.14.2'
+  gem 'pry'
+  gem 'pry-nav'
+end
+
+gem 'rails_12factor', group: :production
+
+gem 'sorcery'
